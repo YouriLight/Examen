@@ -1,3 +1,7 @@
+html, body {
+  overflow-x:hidden 
+}
+
 header{
     width: auto;
     padding: 10px;
@@ -136,6 +140,7 @@ iframe{
   .flex-container, nav, li, section {
     flex-direction: column;
     width: auto;
+    font-size: 0.9em;
   }
 }
 
