@@ -1,5 +1,5 @@
-html, body{
-  overflow-x: hidden;
+* {
+  box-sizing: border-box;
 }
 
 header{
@@ -27,14 +27,6 @@ body{
     padding: 0;
     margin: 0;
     background-color: white;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 676px) {
-.main, li {
-    width: 100%;
-    height: auto;
-  }
 }
 
 section{
@@ -109,10 +101,6 @@ iframe{
     padding: 0px;
 }
 
-#left:hover{
-    transform: scaleX(-1);
-}
-
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -132,7 +120,6 @@ iframe{
     margin: 0;
     flex: 70%;
     min-height: auto;
-    position: static;
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
@@ -142,3 +129,12 @@ iframe{
     font-size: 0.9em;
   }
 }
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 676px) {
+.main, li {
+    width: 100%;
+    height: auto;
+  }
+}
+
