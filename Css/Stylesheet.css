@@ -1,6 +1,11 @@
 *{
   box-sizing: border-box;
 }
+@media (max-width: 676px){
+h1,h2,h3,h4,h5,h6,nav{
+  font-size: 98%;
+}
+}
 
 header{
     width: auto;
@@ -198,5 +203,6 @@ textarea {
 height: 200px;
 padding: 5px 5px;
 }
+
 
 
